@@ -41,7 +41,6 @@
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sass-lint": "^1.4.0",
     "node-sass-tilde-importer": "^1.0.2"
   }
 }
