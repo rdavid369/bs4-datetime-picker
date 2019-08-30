@@ -22,7 +22,7 @@ function copyJavscriptToVendorDir() {
       ])
     )
     .pipe(concat("bs4-datetime-picker.js"))
-    .pipe(gulp.dest("vendor/assets/javascripts"));
+    .pipe(gulp.dest("app/assets/javascripts"));
 }
 
 /**
@@ -40,7 +40,7 @@ function buildCss() {
       }).on("error", sass.logError)
     )
     .pipe(postcss([autoprefixer()]))
-    .pipe(gulp.dest("vendor/assets/stylesheets"));
+    .pipe(gulp.dest("app/assets/stylesheets"));
 }
 
 function watcher() {
