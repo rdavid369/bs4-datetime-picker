@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/rdavid369/bs4-datetime-picker#readme",
   "dependencies": {
-    "tempusdominus-bootstrap-4": "^5.1.2"
+    "tempusdominus-bootstrap-4": "^5.1.2",
+    "tempusdominus-core": "^5.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
