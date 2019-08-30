@@ -1,4 +1,17 @@
 module Bs4DatetimePicker
-  class Railtie < ::Rails::Railtie
+  # @description
+  #
+  #
+  class Railtie < ::Rails::Railtie; end
+
+  # @description
+  # - We just need to add the load paths to the Rails application.
+  #
+  class Engine < ::Rails::Engine
+    initializer 'bs4-datetime-picker.assets.precompile' do |app|
+      %w[stylesheets javascripts].each do |sub|
+        app.config.assets.paths << root.join('vendor', sub).to_s
+      end
+    end
   end
 end

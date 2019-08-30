@@ -1,5 +1,6 @@
-require "bs4_datetime_picker/railtie"
+require 'bs4_datetime_picker/railtie'
 
-module Bs4DatetimePicker
-  # Your code goes here...
-end
+# @description
+# - Simple module wrapper for the gem.
+#
+module Bs4DatetimePicker; end

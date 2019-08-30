@@ -1,0 +1,46 @@
+{
+  "name": "bs4_datetime_picker",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 datetime picker with custom styling",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdavid369/bs4-datetime-picker.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap4",
+    "date",
+    "time",
+    "datetime",
+    "picker"
+  ],
+  "author": "Robert David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdavid369/bs4-datetime-picker/issues"
+  },
+  "homepage": "https://github.com/rdavid369/bs4-datetime-picker#readme",
+  "dependencies": {
+    "tempusdominus-bootstrap-4": "^5.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "bootstrap": "^4.3.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "node-sass-tilde-importer": "^1.0.2"
+  }
+}

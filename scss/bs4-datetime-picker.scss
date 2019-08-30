@@ -1,0 +1,39 @@
+//# Bs4DateTimePicker
+//
+//# We may or may not want to add the default styles for TempusDominus
+//# We already know we want to override some of the styles, so
+//# we might just opt out from having it in the first place.
+
+$bs-datetimepicker-timepicker-font-size: 1.5em !default;
+// $bs-datetimepicker-active-bg:                    $blue !default;
+// $bs-datetimepicker-active-color:                 $white !default;
+// $bs-datetimepicker-border-radius:                $border-radius !default;
+// $bs-datetimepicker-btn-hover-bg:                 $gray-200 !default;
+// $bs-datetimepicker-disabled-color:               $gray-600 !default;
+// $bs-datetimepicker-alternate-color:              $gray-600 !default;
+// $bs-datetimepicker-secondary-border-color:       #ccc !default;
+// $bs-datetimepicker-secondary-border-color-rgba:  rgba(0, 0, 0, 0.2) !default;
+// $bs-datetimepicker-primary-border-color:         white !default;
+// $bs-datetimepicker-text-shadow:                  0 -1px 0 rgba(0, 0, 0, 0.25) !default;
+
+@import "../node_modules/tempusdominus-bootstrap-4/src/sass/tempusdominus-bootstrap-4-build.scss";
+
+.bootstrap-datetimepicker-widget {
+  &.dropdown-menu {
+    width: 16rem;
+  }
+
+  table {
+    thead {
+      th {
+        border-bottom: 0px;
+      }
+    }
+
+    th,
+    td {
+      line-height: 25px;
+      border-top: 0px;
+    }
+  }
+}
