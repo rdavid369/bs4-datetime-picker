@@ -14,7 +14,7 @@ module Bs4DatetimePicker
   class Engine < ::Rails::Engine
     initializer 'bs4-datetime-picker.assets.precompile' do |app|
       %w[stylesheets javascripts].each do |sub|
-        app.config.assets.paths << root.join('vendor', sub).to_s
+        app.config.assets.paths << root.join('vendor/assets', sub).to_s
       end
     end
   end
