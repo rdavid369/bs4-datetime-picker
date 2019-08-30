@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'font-awesome-rails'
   spec.add_dependency 'moment-timezone-rails', '~> 1.0'
   spec.add_dependency 'momentjs-rails', '>= 2.10.5', '<= 3.0.0'
-  spec.add_dependency 'rails', '~> 5.2.3'
+  spec.add_dependency 'rails', '>= 4.2.11'
 
   spec.add_development_dependency 'bootstrap', '~> 4.3.1'
   spec.add_development_dependency 'jquery-rails'
