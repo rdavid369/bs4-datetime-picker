@@ -12,9 +12,10 @@ var gulp = require("gulp"),
   concat = require("gulp-concat");
 
 /**
+ * @description
  *
  */
-function copyJavscriptToVendorDir() {
+function copyJavscriptToAppDir() {
   return gulp
     .src(
       ["index.js"].concat([
@@ -27,9 +28,7 @@ function copyJavscriptToVendorDir() {
 
 /**
  * @description
- * Because this is being used as a gem, we don't want to convert the SASS
- * to CSS.  Instead, we just want to build the structure for the gem.  Let
- * Sprockets worry about turning it to CSS.
+ *
  */
 function buildCss() {
   return gulp
@@ -47,5 +46,5 @@ function watcher() {
   gulp.watch(["scss/*.scss"], gulp.series(buildCss));
 }
 
-gulp.task("update", gulp.series(copyJavscriptToVendorDir, buildCss));
+gulp.task("update", gulp.series(copyJavscriptToAppDir, buildCss));
 gulp.task("watch", gulp.series(buildCss, watcher));
