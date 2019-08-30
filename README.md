@@ -6,6 +6,10 @@ This is just a simple wrapper gem for Tempus Dominus Bootstrap 4, @see https://g
 
 For usage information, please @see https://tempusdominus.github.io/bootstrap-4/Usage/
 
+## Dependencies
+
+This gem includes `font-awesome-rails`, `momentjs-rails` and `moment-timezone-rails`. These three libraries are pretty much required to get the datetime picker to work out of the box.
+
 ## Installation
 
 Add this line to your application's Gemfile:
