@@ -1,6 +1,6 @@
 {
   "name": "bs4_datetime_picker",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Bootstrap 4 datetime picker with custom styling",
   "main": "index.js",
   "directories": {
