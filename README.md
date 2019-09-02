@@ -8,7 +8,11 @@ For usage information, please @see https://tempusdominus.github.io/bootstrap-4/U
 
 ## Dependencies
 
-This gem includes `font-awesome-rails`, `momentjs-rails` and `moment-timezone-rails`. These three libraries are pretty much required to get the datetime picker to work out of the box.
+This gem includes `momentjs-rails` and `moment-timezone-rails`. These two libraries are pretty much required to get the datetime picker to work out of the box.
+
+> _NOTE:_
+>
+> `font-awesome` was removed as a dependency.  If you wish to use `font-awesome` by default, you will need to include the gem in your Gemfile.
 
 ## Installation
 
