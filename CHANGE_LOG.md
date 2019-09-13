@@ -1,3 +1,7 @@
+# 2.0.1 (2019-9-13)
+
+Removed the loading of font-awesome from Railtie.
+
 # 2.0.0 (2019-09-02)
 
 - Font Awesome was removed from the gem as a dependency. People can now include which ever version they want, or opt to use something else for their icons entirely.

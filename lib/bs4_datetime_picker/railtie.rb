@@ -1,6 +1,5 @@
 require 'momentjs-rails'
 require 'moment-timezone-rails'
-require 'font-awesome-rails'
 
 module Bs4DatetimePicker
   # @description
